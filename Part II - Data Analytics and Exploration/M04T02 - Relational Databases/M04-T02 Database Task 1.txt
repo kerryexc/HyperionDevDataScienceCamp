@@ -1,0 +1,7 @@
+1. Normalization is a process in database design used to reduce data redundancy (repeated data),ensure data integrity (consistency), and organize data efficiently across multiple related tables.
+
+2. A table is 1NF if all columns contain atomic values (i.e., no lists or sets in a single cell), each column contains values of the same type, and if each row is unique, meaning there's a way to uniquely identify each row (usually using a primary key).
+
+3. A table is 2NF if it is already in 1NF and if every non-key column is fully dependent on the entire primary key — not just part of it (this applies to tables with composite primary keys).
+
+4. A table is 3NF if it is already in 2NF, all columns are only dependent on the primary key, and not on other non-key columns (i.e., no transitive dependencies).

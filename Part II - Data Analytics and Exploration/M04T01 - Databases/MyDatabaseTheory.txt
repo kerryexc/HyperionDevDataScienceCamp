@@ -1,0 +1,22 @@
+1. Data is raw, unprocessed facts and figures without context. Information is data that has been processed and given context, making it meaningful. 
+
+2. Metadata is provides additional context or information about data.
+
+3. A DBMS (Database Management System) is software that allows users to create, manage, retrieve, and update data in databases. Some advantages are data security in user access control, data integrity, and data consistency.
+
+4. There are operational databases and analytical databases. Operational databases are used in daily operations of companies. Examples are MySQL and PostgreSQL. 
+
+Analytical databases are used in business intelligence and reporting. Examples are Amazon Redshift and Google BigQuery.
+
+5. NOSQL databases are used for unstructured, semi-structured, and large scale data. Types are:
+
+Document based- content management systems.
+Key-Value Stores- fast retrieval through unique keys.
+Column-based- data stored in columns.
+Graph databases- Nodes and edges for relationships. 
+
+NoSQL Data is best used in high-volume fast changing data and big data applications.
+
+6. SQLite is an example. It is lightweight and fast and has a simple set-up. In addition, SQLite is portable and cross-platform.
+
+7. ACID ensures reliable database transactions. Atomicity is where all parts of the transaction succeed or fail together. Consistency is when transactions bring the database from one valid state to another. Isolation is when simultaneous transactions do not affect each other. Durability is when once a transaction is committed, it's saved permanently.
